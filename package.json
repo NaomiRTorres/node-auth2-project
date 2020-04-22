@@ -4,8 +4,8 @@
   "description": "## Topics",
   "main": "index.js",
   "scripts": {
-   "server": "nodemon index.js",
-   "start": "node index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "helmet": "^3.22.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.0",
+    "pg": "^8.0.3",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
